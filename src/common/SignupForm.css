@@ -1,0 +1,150 @@
+.signupContainer {
+    display: flex;
+    width: 1430px;
+    height: 670px;
+    background-color: #b987fa2d; /* Light Sky Blue color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
+    margin: 20px; /* Optional margin */
+  }
+  
+  .imageSection {
+    flex: 1; /* Takes up 1/3rd of the width */
+    background-color: #f0f0f0; /* Optional background color for the image section */
+  }
+  
+  .imageSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the section properly */
+  }
+  
+  .formSection {
+    flex: 2; /* Takes up 2/3rd of the width */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the form vertically */
+    position: relative; /* Position relative for positioning the forgot password link */
+  }
+  
+  h2 {
+    text-align: center; /* Center the sign-up title */
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #333; /* Change the color if needed */
+    margin-bottom: 30px; /* Spacing below the title */
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+    padding-left: 170px; /* Adjust spacing between form groups */
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input {
+    width: 70%;
+    padding: 8px; /* Decrease the size of the input boxes */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forgotPasswordLink {
+    right: 0;
+    bottom: -40px; /* Adjust position below the confirm password input */
+    color: #051321;
+    text-decoration: none;
+    font-size: 1em; /* Adjust font size if needed */
+  }
+  
+  .forgotPasswordLink:hover {
+    color: red; /* Change color on hover */
+  }
+  
+  .formFooter button {
+    width: auto; /* Decrease the size of the button */
+    padding: 8px 36px; /* Adjust padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 460px;
+  }
+  
+  .formFooter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .formFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the "Existing user? Login" text */
+    margin-top: 20px; /* Add spacing from the button */
+  }
+  
+  .formFooter p {
+    margin: -28px;
+    margin-right: 70px; /* Remove default margins */
+  }
+  
+  .formFooter a {
+    color: #1d6dc4;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  
+  .formFooter a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  .socialSignup {
+    margin-top: 60px; /* Space above the social signup section */
+    text-align: center;
+  }
+  
+  .divider {
+    width: 60%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-left: 170px;
+    margin-right: 200px;
+  }
+  
+  .orText {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; 
+  }
+  
+  .socialIcons p {
+    text-decoration: none;
+  }
+  
+  .socialIcon {
+    width: 40px; /* Adjust size of the icons */
+    height: 40px;
+  }
+  
+  .socialIcons p {
+    margin: 0; /* Remove default margins from text under icons */
+    font-size: 1em;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+    margin-left: 19%;
+  }
+  

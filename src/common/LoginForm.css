@@ -1,0 +1,132 @@
+.loginContainer {
+    display: flex;
+    width: 1430px;
+    height: 670px;
+    background-color: #b987fa2d; /* Light Sky Blue color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
+    margin: 20px; /* Optional margin */
+  }
+  
+  .formSection {
+    flex: 2; /* Takes 2/3 of the width */
+    background: #b987fa2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imageSection {
+    flex: 1; /* Takes 1/3 of the width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -100px;
+  }
+  
+  .formGroup input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: -100px;
+  }
+  
+  .formFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .formFooter a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .formFooter a:hover {
+    color: red;
+  }
+  
+  .formFooter p {
+    margin-top: -28px;
+    margin-right: 0px;
+  }
+  
+  .forgotPasswordLink {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-top: -20px;
+  }
+  
+  .forgotPasswordLink:hover {
+    color: red;
+  }
+  
+  .loginButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  
+  .loginButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .socialSignup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .divider {
+    width: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .orText {
+    margin: 10px 0;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .socialIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+  }
+  

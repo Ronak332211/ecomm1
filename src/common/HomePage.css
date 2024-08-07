@@ -1,0 +1,135 @@
+/* Header styles */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+
+/* Home page hero section */
+#hero {
+  background-image: url("C:\Users\Genius\myreactwebsite\src\img\hero4.png");
+  height: 90vh;
+  width: 89%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+  color: #555;
+  font-size: 30px;
+}
+
+#hero h1 {
+  color: #088178;
+  margin: 0;
+
+} 
+#hero h2 {
+  margin: 0;
+  font-size: 45px;
+  
+} 
+
+#hero button {
+  background-image: url('C:/Users/Genius/myreactwebsite/src/img/button.png');
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;                  
+  margin-top: 20px;
+} 
+
+#auth-buttons {
+  margin-top: 20px;
+}
+
+.auth-button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #088178;
+  color: #088178;
+  background-color: transparent;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #088178;
+  color: #fff;
+}
+
+.logo {
+  width: 120px; 
+  height: 70px; 
+  margin: 10px 0;
+  transition: transform 0.3s; 
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
